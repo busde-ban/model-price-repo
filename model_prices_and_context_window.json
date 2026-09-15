@@ -6815,6 +6815,15 @@
     "supports_web_search": true,
     "supports_xhigh_reasoning_effort": true
   },
+  "gpt-5.5-cyber": {
+    "cache_read_input_token_cost": 1.25e-06,
+    "input_cost_per_token": 1.25e-05,
+    "litellm_provider": "openai",
+    "mode": "chat",
+    "output_cost_per_token": 7.5e-05,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "supports_reasoning": true
+  },
   "gpt-5.5-pro": {
     "cache_read_input_token_cost": 6e-06,
     "cache_read_input_token_cost_above_272k_tokens": 1.2e-05,
@@ -8022,6 +8031,14 @@
       "text"
     ],
     "supports_audio_input": true
+  },
+  "gpt-rosalind-research": {
+    "cache_read_input_token_cost": 5e-07,
+    "input_cost_per_token": 5e-06,
+    "litellm_provider": "openai",
+    "mode": "chat",
+    "output_cost_per_token": 2.5e-05,
+    "source": "https://developers.openai.com/api/docs/pricing"
   },
   "gpt-transcribe": {
     "input_cost_per_second": 7.5e-05,
